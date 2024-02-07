@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-100">
+    <header class="bg-white shadow px-6">
+      <div class="flex justify-between h-16 items-center max-w-5xl mx-auto">
+        <button
+          class="text-slate-500 hover:bg-sky-500 hover:text-slate-100 rounded p-1 -ml-1 transition-colors focus:ring-2 focus:ring-slate-200"
+        >
+          <svg
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 16 16"
+            fill="currentColor"
+            className="w-4 h-4"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </button>
+
+        <div class="flex justify-center items-center space-x-5">
+          <a href="" class="text-sky-500 hover:rotate-6 duraction-200"
+            ><svg
+              class="h-8 w-8"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              className="w-4 h-4"
+            >
+              <path
+                fillRule="evenodd"
+                d="M7.605 2.112a.75.75 0 0 1 .79 0l5.25 3.25A.75.75 0 0 1 13 6.707V12.5h.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H3V6.707a.75.75 0 0 1-.645-1.345l5.25-3.25ZM4.5 8.75a.75.75 0 0 1 1.5 0v3a.75.75 0 0 1-1.5 0v-3ZM8 8a.75.75 0 0 0-.75.75v3a.75.75 0 0 0 1.5 0v-3A.75.75 0 0 0 8 8Zm2 .75a.75.75 0 0 1 1.5 0v3a.75.75 0 0 1-1.5 0v-3ZM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
+          <div class="space-x-8 hidden md:flex">
+            <a href="" class="px-3 py-2 text-sky-500">Home</a>
+            <a
+              href=""
+              class="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors"
+              >About</a
+            >
+            <a
+              href=""
+              class="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors"
+              >Blog</a
+            >
+            <a
+              href=""
+              class="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors"
+              >Contact</a
+            >
+          </div>
+        </div>
+
+        <div class="flex">
+          <button
+            class="text-slate-500 hover:text-sky-500 rounded-full -mr-2 transition-colors focus:ring-2 focus:ring-slate-200 focus:ring-offset-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                d="M8 1a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 1ZM10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM12.95 4.11a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 0 0 1.061 1.062l1.06-1.061ZM15 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 15 8ZM11.89 12.95a.75.75 0 0 0 1.06-1.06l-1.06-1.062a.75.75 0 0 0-1.062 1.061l1.061 1.06ZM8 12a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 12ZM5.172 11.89a.75.75 0 0 0-1.061-1.062L3.05 11.89a.75.75 0 1 0 1.06 1.06l1.06-1.06ZM4 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 4 8ZM4.11 5.172A.75.75 0 0 0 5.173 4.11L4.11 3.05a.75.75 0 1 0-1.06 1.06l1.06 1.06Z"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="text-slate-500 hover:text-sky-500 ml-4 rounded-full transition-colors focus:ring-2 focus:ring-slate-200 focus:ring-offset-1"
+          >
+            <img
+              class="h-6 w-6 rounded-full"
+              src="https://ui-avatars.com/api?name=Cristian+Caro"
+              alt="Cristian Caro"
+            />
+          </button>
+        </div>
+      </div>
+
+      <!-- mobile  -->
+      <div class="space-y-1 pb-3 border-t py-3 pt-2 md:hidden">
+        <a
+          href=""
+          class="bg-sky-500 text-white block px-3 py-2 rounded-md transition-colors"
+          >Home</a
+        >
+        <a
+          href=""
+          class="text-slate-700 hover:bg-sky-500 hover:text-white block px-3 py-2 rounded-md transition-colors"
+          >About</a
+        >
+        <a
+          href=""
+          class="text-slate-700 hover:bg-sky-500 hover:text-white block px-3 py-2 rounded-md transition-colors"
+          >Blog</a
+        >
+        <a
+          href=""
+          class="text-slate-700 hover:bg-sky-500 hover:text-white block px-3 py-2 rounded-md transition-colors"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <main class="p-4">
+      <article>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div></div>
+      </article>
+    </main>
+  </body>
+</html>
